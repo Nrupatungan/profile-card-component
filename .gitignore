@@ -1,0 +1,11 @@
+#Ignore large files
+node_modules/
+
+#Ignore design images
+design/
+
+#Ignore "note.md"
+note.md
+
+#Ignore "style-guide.md"
+style-guide.md
