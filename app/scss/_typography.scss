@@ -1,0 +1,48 @@
+//font variable
+$Kumbhsans: 'Kumbh Sans', sans-serif;
+
+//font setting
+body{
+    font-size: 18px;
+    font-family: $Kumbhsans;
+    text-align: center;
+}
+
+.main-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        margin: 0 10px;
+        font-size: 1.125em;
+        line-height: 2em;
+        font-weight: 500;
+    }
+    .london{
+        padding-bottom: 25px;
+    }
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 28px 0;
+    div{
+        margin: 0 20px;
+    }
+    h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 12px;
+        letter-spacing: 0.112;
+    }
+
+    @media #{$mq-1440-up}{
+        p{
+            font-size: 12.9px;
+        }
+    }
+}
